@@ -20,7 +20,6 @@
 # Then this script simply takes entries from rcvd.txt and compares it with entries in gldn.txt with depth selected as depth(rcvd.txt)
 # If all entries match then COMPARISON SUCCESS else FAILURE !
 
-
 import sys
 import difflib
 import fileinput
@@ -61,3 +60,5 @@ else:
 
 gldn.close()
 rcvd.close()
+
+#Add the sys.exit() as per the requirement
